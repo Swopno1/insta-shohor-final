@@ -128,10 +128,28 @@
         <h2>
           What are the difference between local storage and session storage?
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
-          at.
-        </p>
+        <ui>
+          <li>
+            Local storage store data for the specific domain where session
+            storage store data for the current session.
+          </li>
+          <li>
+            Local storage data stores do not removed after close the broweser
+            tab but the session storage data will remove once the tab close.
+          </li>
+          <li>
+            Opening a new tab will create a new session data where the local
+            storage look for any existing storage data.
+          </li>
+          <li>
+            If we open multiple tab for the same tab, it create only single
+            local storage where creates session storage for each tab.
+          </li>
+          <li>
+            When we close the tab, session storage will removed but the local
+            storage not removed.
+          </li>
+        </ui>
       </section>
     </main>
 
