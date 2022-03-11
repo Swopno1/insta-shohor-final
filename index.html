@@ -87,71 +87,82 @@
       <div id="reported">
         <h1>Reported posts</h1>
       </div>
-
-      <section>
+    </main>
+    <aside id="q-answer">
+      <section class="container mx-auto p-3 mt-3">
         <h2>How does JavaScript work?</h2>
-        <ul>
-          <li>JS is a single threaded programming language.</li>
-          <li>It can run only one command/task at once.</li>
-          <li>
+        <ul class="list-group">
+          <li class="list-group-item">
+            JS is a single threaded programming language.
+          </li>
+          <li class="list-group-item">
+            It can run only one command/task at once.
+          </li>
+          <li class="list-group-item">
             Generally, JS works synchronized and chronological way i.e., line by
             line.
           </li>
-          <li>
+          <li class="list-group-item">
             So, JS creates a call stack which create a que of task/command and
             run one by one.
           </li>
-          <li>
+          <li class="list-group-item">
             But JS also has some functions that can run asynchronized way by
             using memory hipe and push the task in the call stack when certain
             condition fulfilled.
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container mx-auto p-3">
         <h2>What does JavaScript eventloop do?</h2>
-        <ul>
-          <li>Eventloop manage the que of event/command.</li>
-          <li>It create a call stack to and callback que.</li>
-          <li>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Eventloop manage the que of event/command.
+          </li>
+          <li class="list-group-item">
+            It create a call stack to and callback que.
+          </li>
+          <li class="list-group-item">
             When the call stack become empty, it push the callback que to call
             stack.
           </li>
-          <li>And manage the memory hype to store memories.</li>
-          <li>
+          <li class="list-group-item">
+            And manage the memory hype to store memories.
+          </li>
+          <li class="list-group-item">
             Eventloop manage the overall web api data and asynchronous functions
             to integrate each other.
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container mx-auto p-3 mb-3">
         <h2>
           What are the difference between local storage and session storage?
         </h2>
-        <ui>
-          <li>
+        <ui class="list-group">
+          <li class="list-group-item">
             Local storage store data for the specific domain where session
             storage store data for the current session.
           </li>
-          <li>
+          <li class="list-group-item">
             Local storage data stores do not removed after close the broweser
             tab but the session storage data will remove once the tab close.
           </li>
-          <li>
+          <li class="list-group-item">
             Opening a new tab will create a new session data where the local
             storage look for any existing storage data.
           </li>
-          <li>
+          <li class="list-group-item">
             If we open multiple tab for the same tab, it create only single
             local storage where creates session storage for each tab.
           </li>
-          <li>
+          <li class="list-group-item">
             When we close the tab, session storage will removed but the local
             storage not removed.
           </li>
         </ui>
       </section>
-    </main>
+    </aside>
 
     <footer></footer>
 
